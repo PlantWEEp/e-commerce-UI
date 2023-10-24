@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/image-20.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+
+    "btn": "Buy Now"
+  },
+  {
+    "id": 2,
+    "image": "./assets/image-21.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+    "tag": "New",
+    "offer": "-15%",
+    "btn": "Buy Now"
+  },
+  {
+    "id": 3,
+    "image": "./assets/image-22.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+    "btn": "Buy Now"
+  },
+  {
+    "id": 4,
+    "image": "./assets/image-33.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+    "tag": "New",
+    "offer": "-15%",
+    "btn": "Buy Now"
+  },
+  {
+    "id": 5,
+    "image": "./assets/image-24.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+    "tag": "New",
+    "offer": "-15%",
+    "btn": "Buy Now"
+  },
+  {
+    "id": 6,
+    "image": "./assets/image-25.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+    "btn": "Buy Now"
+  },
+  {
+    "id": 7,
+    "image": "./assets/image-26.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+    "tag": "New",
+    "offer": "-15%",
+    "btn": "Buy Now"
+  },
+  {
+    "id": 8,
+    "image": "./assets/image-27.jpg",
+    "title": "image",
+    "price": "$96",
+    "realPrice": "$100",
+    "productTitle": "Wooden Cantainer Bowl",
+    "btn": "Buy Now"
+  }
+]

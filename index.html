@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexstock</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- navBar-starts -->
+    <article id="navbar" class="position-fixed w-100">
+      <div class="container">
+        <div class="header py-4 d-flex justify-content-between">
+          <div class="logo">
+            <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+          </div>
+          <div class="nav">
+            <ul class="nav-item d-flex gap-4 list-unstyled">
+              <li class="list-nav dropdown">
+                <a
+                  href="#banners">
+                  Home
+                </a> 
+              </li>
+              <li class="list-nav dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle p-0"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Shop
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Screen-1</a></li>
+                  <li><a class="dropdown-item" href="#">Screen-2</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Screen-2</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="list-nav dropdown">
+                <a
+                  href="#blog" >
+                  Blog
+                </a> 
+              </li>
+              <li class="list-nav dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle p-0"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Screen-1</a></li>
+                  <li><a class="dropdown-item" href="#">Screen-2</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Screen-2</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="list-nav">
+                <a href="#" class="text-black">Contant</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cartSide d-flex gap-3">
+            <div class="search">
+              <input type="text" class="search-bar" placeholder="Search" />
+            </div>
+            <div class="cart" id="cartBag">
+              <i class="fa-solid fa-cart-shopping"></i>
+              cart (0)
+            </div>
+            <div class="menu">
+              <i class="fa-solid fa-bars"></i>
+              <span class="close"><i class="fa-solid fa-x"></i></span>
+              <div class="siderBar">
+                <ul class="mobile-list">
+                  <li class="mobile-screen">Home</li>
+                  <li class="mobile-screen">Shop</li>
+                  <li class="mobile-screen">Blog</li>
+                  <li class="mobile-screen">Pages</li>
+                  <li class="mobile-screen">Content</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article> 
+    <!-- navBar-ends -->
+
+    <!-- banner-start -->
+    <article id="banners">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/image-39.jpg"
+              class="d-block w-100"
+              alt="banner" />
+            <span class="overlay"></span>
+            <div class="bannerHeading">
+              <h1>Think Different & Do it otherwise</h1>
+              <p class="my-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo at
+                libero obcaecati aperiam eveniet possimus ad cumque vel nulla
+                repellendus!
+              </p>
+              <div class="mt-3">
+                <a href="#" class="bannerbtn">Discover Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/image-39.jpg"
+              class="d-block w-100"
+              alt="banner" />
+            <span class="overlay"></span>
+            <div class="bannerHeading">
+              <h1>Think Different & Do it otherwise</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo at
+                libero obcaecati aperiam eveniet possimus ad cumque vel nulla
+                repellendus!
+              </p>
+              <a href="#" class="bannerbtn">Discover Now</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/image-39.jpg"
+              class="d-block w-100"
+              alt="banner" />
+            <span class="overlay"></span>
+            <div class="bannerHeading">
+              <h1>Think Different & Do it otherwise</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo at
+                libero obcaecati aperiam eveniet possimus ad cumque vel nulla
+                repellendus!
+              </p>
+              <a href="#" class="bannerbtn">Discover Now</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </article>
+    <!-- banner-ends -->
+
+    <!-- special box start -->
+    <section id="box" class="main-box">
+      <div class="container">
+        <div class="boxes">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="box1 d-flex justify-content-center align-items-start flex-column gap-2">
+                <h5>
+                  Sunflower clock<br />
+                  Quartx Hands
+                </h6>
+                <a href="#">Discover Now</a>
+              </div>
+            </div>
+             <div class="col-md-6 col-lg-4">
+              <div class="box2 d-flex justify-content-center align-items-start flex-column gap-2">
+                <h5>
+                  Sunflower clock<br />
+                  Quartx Hands
+                </h6>
+                <a href="#">Discover Now</a>
+              </div>
+            </div>
+             <div class="col-md-6 col-lg-4">
+              <div class="box3 d-flex justify-content-center align-items-start flex-column gap-2">
+                <h5>
+                  Sunflower clock<br />
+                  Quartx Hands
+                </h6>
+                <a href="#">Discover Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- special box end -->
+
+    <!-- product box start -->
+    <section id="product">
+      <div class="container"> 
+          <div class="headingText position-relative">
+            <h3 class="text-center">
+            Trending Product
+          </h3 >
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reiciendis.</p>
+          </div> 
+           <div class="wapper py-4"> 
+           <div class="row" id="prodContainer">
+           
+        </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- product box ends -->
+     
+    <!-- featured products start -->
+    <section id="featured">
+      <div class="container-fluid"> 
+          <div class="row">
+            <div class="col-md-6">
+              <div class="featuredwapper mt-2">  
+                <div class="content">
+                  <div class="orangetext">
+                    Products Essentials
+                  </div>
+                  <h5>Bottle With Wooden Cork</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde odit, quos atque amet molestiae ullam repellat aperiam.</p>
+                  <div class="mt-3">
+                    <a href="#" class="bannerbtn"><b>Buy Now /</b> <span class="orangetext">$60</span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="featuredwapper2 mt-2" > 
+                <div class="content">
+                  <div class="orangetext">
+                    Products Essentials
+                  </div>
+                  <h5>Bottle With Wooden Cork</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias unde odit, quos atque amet molestiae ullam.</p>
+                  <div class="mt-3">
+                    <a href="#" class="bannerbtn"><b>Buy Now /</b><span class="orangetext"> $60</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+      </div>
+    </section>
+     <!-- featured products end -->
+
+     <!-- sale section start -->
+    <section id="sale">
+      <div class="container">
+         <div class="headingText position-relative">
+            <h3 class="text-center">
+            Sale Off
+          </h3 >
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reiciendis.</p>
+      </div> 
+      <div class="row" id="sale"> 
+        <div class="col-sm-6 col-lg-3 pt-4">
+           <div class="saleContainer position-relative">
+            <div class="saleimg">
+              <img src="./assets/image-20.jpg" class="img-prod"/>
+              <div class="off">
+                <span class="offer">New</span>
+                <span class="offPrice">-15%</span>
+              </div>
+            </div>
+            <h6 class="pt-3 text-light-subtle">Wooden Cantainer Bowl</h6>
+            <div class="price d-flex gap-2">  
+              <p class="m-0">$ $96</p>
+              <small><s class="m-0">$ $100</s></small>
+            </div>
+           </div>
+        </div> 
+        <div class="col-sm-6 col-lg-3 pt-4">
+           <div class="saleContainer position-relative">
+            <div class="saleimg">
+              <img src="./assets/image-21.jpg" class="img-prod"/>
+            </div>
+            <h6 class="pt-3 text-light-subtle">Wooden Cantainer Bowl</h6>
+            <div class="price d-flex gap-2">  
+              <p class="m-0">$ $96</p>
+              <small><s class="m-0">$ $100</s></small>
+            </div>
+           </div>
+        </div> 
+        <div class="col-sm-6 col-lg-3 pt-4">
+           <div class="saleContainer position-relative">
+            <div class="saleimg">
+              <img src="./assets/image-22.jpg" class="img-prod"/>
+              <div class="off">
+                <span class="offer">New</span>
+                <span class="offPrice">-15%</span>
+              </div>
+            </div>
+            <h6 class="pt-3 text-light-subtle">Wooden Cantainer Bowl</h6>
+            <div class="price d-flex gap-2">  
+              <p class="m-0">$ $96</p>
+              <small><s class="m-0">$ $100</s></small>
+            </div>
+           </div>
+        </div> 
+        <div class="col-sm-6 col-lg-3 pt-4">
+           <div class="saleContainer position-relative">
+            <div class="saleimg">
+              <img src="./assets/image-33.jpg" class="img-prod"/>
+            </div>
+            <h6 class="pt-3 text-light-subtle">Wooden Cantainer Bowl</h6>
+            <div class="price d-flex gap-2">  
+              <p class="m-0">$ $96</p>
+              <small><s class="m-0">$ $100</s></small>
+            </div>
+           </div>
+        </div> 
+      </div>
+      </div>
+    </section>
+     <!-- sale section ends -->
+
+     <!-- brands logo section starts-->
+    <section id="brandsLogo">
+      <div class="container">
+        <div class="logoView">
+          <div class="marquee-container"> 
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+               <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+              <img src="./assets/logo.png" alt="logo" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- brands logo section ends -->
+
+     <!-- blog starts -->
+    <section id="blog">
+      <div class="container">
+         <div class="headingText position-relative">
+            <h3 class="text-center">
+            Our Blog Posts
+          </h3 >
+          <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, reiciendis.</p>
+      </div> 
+      <div class="row pt-5">
+        <div class="col-sm-6 col-lg-4">
+          <div class="card blogCard">
+            <img class="card-img-top" src="./assets/image-9.jpg" alt="Card image cap">
+             <div class="card-body">
+              <h5 class="card-title">Antoposuerit Formus</h5>
+              <div class="auther py-3">By <span class="orangetext">Shahnewz sakil</span>/Septembar 2017</div>
+              <p class="card-text py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis facilis tempore totam saepe at?</p>
+              <a href="#" class="Read">Read More</a>
+            </div>
+          </div>
+        </div>
+         <div class="col-sm-6 col-lg-4">
+          <div class="card blogCard">
+            <img class="card-img-top" src="./assets/image-10.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Antoposuerit Formus</h5>
+              <div class="auther py-3">By <span class="orangetext">Shahnewz sakil</span>/Septembar 2017</div>
+              <p class="card-text py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis facilis tempore totam saepe at?</p>
+              <a href="#" class="Read">Read More</a>
+            </div>
+          </div>
+        </div> 
+         <div class="col-sm-6 col-lg-4">
+          <div class="card blogCard">
+            <img class="card-img-top" src="./assets/image-11.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Antoposuerit Formus</h5>
+              <div class="auther py-3">By <span class="orangetext">Shahnewz sakil</span>/Septembar 2017</div>
+              <p class="card-text py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis facilis tempore totam saepe at?</p>
+              <a href="#" class="Read">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+     <!-- blog ends -->
+
+     <!-- discount start-->
+      <section id="discount">
+        <div class="container">
+         <div class="info text-center">
+           <h3>Get Discount info</h3>
+          <div class="w-80">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sint consequatur iure eum aspernatur nulla.</p>
+          </div> 
+         </div>
+         <div class="letter d-flex gap-2 flex-column">
+          <input type="text" placeholder="subscribe to our newsletter">
+          <button class="newsbtn">subscribe</button>
+         </div>
+        </div>
+      </section>
+     <!-- discount ends -->
+
+     <!-- footer start -->
+     <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+           <div class="footerWpper">
+             <img src="./assets/image-18.png" class="img-fluid"/>
+            <p class=" py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex minus eaque fugiat sequi eum.</p>
+            <ul class="footerlisted list-unstyled">
+              <li class=" py-2"><i class="fas fa-location-dot"></i> 235 Heaven Street, Beverly, USA</li>
+              <li class=" py-2"><a href="mailto:hello@hexstick.com" class="text-white"><i class="far fa-envelope"></i> hello@hexstick.com</a></li> 
+              <li class=" py-2"><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+          </ul>
+
+           </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footerWpper">
+              <h6 class="text-white">Information</h6>
+            <ul class="list-unstyled pt-3">
+              <li class="">About Us</li>
+              <li class="py-2">Careers</li>
+              <li class="py-2">Delivery Informtion</li>
+              <li class="py-2">Orivacy Policy</li>
+              <li class="py-2">Terms & Condition</li> 
+            </ul></div>
+            
+          </div>
+          <div class="col-md-3">
+            <div class="footerWpper">
+              <h6 class="text-white">Customer Service</h6>
+            <ul class="list-unstyled pt-3">
+              <li class="">Shipping Policy</li>
+              <li class="py-2">Help & Contant Us</li>
+              <li class="py-2">Returns & Refunds</li>
+              <li class="py-2">Online Stores</li>
+              <li class="py-2">Terms & Condition</li> 
+            </ul></div>
+            
+          </div>
+        </div>
+      </div> 
+     </section>
+     <div class="copyrights pt-3">
+        <p class="text-center">Developed by vaishnav</p>
+      </div>
+     <!-- footer ends -->
+    <!-- script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
